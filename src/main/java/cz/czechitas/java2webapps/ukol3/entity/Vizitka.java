@@ -86,4 +86,17 @@ public class Vizitka {
     public String getCelaAdresa() {
         return ulice + ", " + obecPsc;
     }
+
+    @Override
+    public String toString() {
+        return "Vizitka{" +
+                "jmeno='" + jmeno + '\'' +
+                ", firma='" + firma + '\'' +
+                ", ulice='" + ulice + '\'' +
+                ", obecPsc='" + obecPsc + '\'' +
+                ", email='" + email + '\'' +
+                ", telefon='" + telefon + '\'' +
+                ", web='" + web + '\'' +
+                '}';
+    }
 }

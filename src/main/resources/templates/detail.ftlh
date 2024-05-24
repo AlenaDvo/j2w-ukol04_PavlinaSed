@@ -15,7 +15,7 @@
                 <div><span>${vizitka.obecPsc}</span></div>
             </div>
             <div class="kontakty">
-                <div><i class="bi bi-at"></i> [#if vizitka.email??]${vizitka.email}[#else]<small><em>not specified</em></small>[/#if]</div>
+                <div><i class="bi bi-at"></i>[#if vizitka.email??]${vizitka.email}[#else]<small><em>not specified</em></small>[/#if]</div>
                 <div><i class="bi bi-phone"></i>[#if vizitka.telefon??] ${vizitka.telefon}[#else]<small><em>not specified</em></small>[/#if]</div>
                 <div><i class="bi bi-globe"></i>${vizitka.web}</div>
             </div>

@@ -41,7 +41,7 @@ public class VizitkaService {
                         "70800 Ostrava-Pustkovec",
                         "monika@czechitas.cs",
                         "+420 800123456",
-                        "www.czechitas.cz"
+                        null
                 )
         );
         seznamVizitek.add(

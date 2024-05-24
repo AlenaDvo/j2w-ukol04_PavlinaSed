@@ -11,11 +11,11 @@
         <form action="/nova" method="post">
             <div class="col-md-8">
                 <label for="given-name" class="form-label">Name</label>
-                <input id="given-name" name="givenName" class="form-control" type="text" placeholder="first name, last name" required/>
+                <input id="given-name" name="jmeno" class="form-control" type="text" placeholder="first name, last name" required/>
             </div>
             <div class="col-md-7">
                 <label for="company" class="form-label">Company</label>
-                <input id="company" name="company" class="form-control" type="text" required/>
+                <input id="company" name="firma" class="form-control" type="text" required/>
             </div>
             <div class="col-md-6">
                 <label for="ulice" class="form-label">Street</label>
@@ -27,7 +27,7 @@
             </div>
             <div class="col-md-4">
                 <label for="e-mail" class="form-label">E-mail</label>
-                <input id="e-mail" name="e-mail" class="form-control" type="email"/>
+                <input id="e-mail" name="email" class="form-control" type="email"/>
             </div>
             <div class="col-md-3">
                 <label for="telefon" class="form-label">Telefon</label>
@@ -39,8 +39,8 @@
             </div>
             <div class="col-md-1 align-self-end">
                 <button type="submit" class="btn btn-primary">Append</button>
-</div>
-</form>
+            </div>
+        </form>
 </div>
 </body>
 </html>
